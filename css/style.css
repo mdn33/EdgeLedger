@@ -155,7 +155,9 @@ line-height: 1.1;
   bottom: 0;
   background-color: rgba(0,0,0,0.4); /*opacita del background */
 }
-
+#what {
+  padding-top: 4.5rem;
+}
 #what .items {
   display: flex;
   padding: 1rem;
@@ -178,7 +180,9 @@ line-height: 1.1;
 }
 
 #who {
+  padding-top: 3rem;
   display: flex;
+  background: #f4f4f4;
 }
 
 #who div {
@@ -200,3 +204,5 @@ line-height: 1.1;
   width: 50%;
 }
 
+/* aggiunti un po di paddings e 
+background per non coprire con navbar */
